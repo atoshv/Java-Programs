@@ -1,3 +1,4 @@
+/*
 package programs;
 
 import java.util.*;
@@ -5,9 +6,11 @@ import java.util.stream.Stream;
 
 public class ProgramFile {
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void sumOfArray() {
 		int sum = 0;
@@ -18,9 +21,11 @@ public class ProgramFile {
 		System.out.println(sum);
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void sumOfNumbersFromList() {
 		int sum = 0;
@@ -36,9 +41,11 @@ public class ProgramFile {
 		System.out.println(sum);
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void factorialNumber() {
 		long factorial = 1;
 		int num;
@@ -52,9 +59,11 @@ public class ProgramFile {
 		System.out.println("Factorial of " + num + " is " + factorial);
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void fibonacci() {
 		int n1 = 0, n2 = 1, n3, count = 10;
 		System.out.println(n1 + "\n" + n2);
@@ -66,9 +75,11 @@ public class ProgramFile {
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void reverseNumber() {
 		int num, rev = 0;
@@ -88,9 +99,11 @@ public class ProgramFile {
 			System.out.println("Not a Palindrome");
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void reverseString() {
 		String string, rev = "";
@@ -109,9 +122,11 @@ public class ProgramFile {
 		
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void reverseSentence() {
 		String string = "Hi Atosh How are you";
@@ -125,9 +140,11 @@ public class ProgramFile {
 		System.out.println("Reverse string is: " + rev.trim());
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void swapping() {
 		int a = 10, b = 20;
@@ -140,9 +157,11 @@ public class ProgramFile {
 		System.out.println("After swapping: " + a + " " + b);
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void countNumberOfDigits() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter any number of your choice: ");
@@ -156,9 +175,11 @@ public class ProgramFile {
 		// example: input: 123  and output: 3 because there are total 3 digits in 123
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void printCountOfEvenAndOddNumbers() {
 		int rem, even_count = 0, odd_count = 0;
@@ -177,9 +198,11 @@ public class ProgramFile {
 		System.out.println("Odd numbers count: " + odd_count);
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void printEvenAndOddNumber() {
 		int[] num = {1, 2, 3, 4, 5, 6, 44, 43};
 		String evenstr = "", oddstr = "";
@@ -196,9 +219,11 @@ public class ProgramFile {
 		System.out.println("odd: " + oddstr);
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void primeNumbers() {
 		int num;
@@ -206,10 +231,12 @@ public class ProgramFile {
 		System.out.println("Enter numbers of your choice: ");
 		num = sc.nextInt();
 		
-		/**
+		*/
+/**
 		 * number should be > 1.
 		 * Divisible by 1 & the number itself - Prime number (That's why the count == 2)
-		 */
+		 *//*
+
 		int count = 1;
 		if (num > 1) {
 			
@@ -227,9 +254,11 @@ public class ProgramFile {
 		
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void duplicateCountNumbers() {
 		int[] arr = new int[]{1, 4, 5, 6, 7, 2, 1, 2};
@@ -252,9 +281,11 @@ public class ProgramFile {
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void duplicateCountString() {
 		String str = "atoshabcdabc";
@@ -272,15 +303,17 @@ public class ProgramFile {
 		Iterator<Character> it = map.keySet().iterator();
 		while (it.hasNext()) {
 			Character temp = it.next();
-			if (map.get(temp) > 0) {
-				System.out.println(temp + "--" + map.get(temp));
+			if (map.get(temp) > 1) {
+				System.out.println(temp + " --> " + map.get(temp));
 			}
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void duplicateWords() {
 		String[] str = {"atosh", "akash", "pavi", "pavi"};
@@ -300,14 +333,16 @@ public class ProgramFile {
 		while (it.hasNext()) {
 			String s = it.next();
 			if (map.get(s) > 0) {
-				System.out.println(s + " --  " + map.get(s));
+				System.out.println(s + " is printed " + map.get(s)+ " times");
 			}
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void duplicateNumbers() {
 		int[] arr = {1, 2, 3, 4, 1, 2};
@@ -331,9 +366,11 @@ public class ProgramFile {
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void nonDuplicateNumbers() {
 		int[] arr = {1, 2, 3, 4, 1, 2};
@@ -357,9 +394,11 @@ public class ProgramFile {
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void combineTwoStringArray() {
 		String[] a = {"Atosh", "Akash"};
 		String[] b = {"Pavi", "pavitra"};
@@ -381,9 +420,11 @@ public class ProgramFile {
 		return str.chars().filter(e -> (char) e == ch).count();
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void nonDuplicateNumbersFromArray() {
 		
 		int rem;
@@ -412,9 +453,11 @@ public class ProgramFile {
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void findDuplicateNumbersAfterReverseOfNumber() {
 		
 		int rem;
@@ -445,9 +488,11 @@ public class ProgramFile {
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void calculator() {
 		
 		char operator;
@@ -502,9 +547,11 @@ public class ProgramFile {
 	}
 	
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void mergeArraysAndSort() {
 		int[] arr1 = {10, 7, 5, 0};
 		int[] arr2 = {3, 4, 1, 2};
@@ -519,29 +566,39 @@ public class ProgramFile {
 			arr3[arr1.length + i] = arr2[i];
 		}
 		for (int i = 0; i < size; i++) {
+			System.out.println("Combined both arrays without sort: " + arr3[i]);
 			Arrays.sort(arr3);
-			System.out.println(arr3[i]);
+			System.out.println("After sort: " + arr3[i]);
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	public void powerFunction() {
-		int base = 2;
+		int base = 4;
 		int exponent = 3;
 		int result = 1;
-		while (exponent != 0) {
+*/
+/*		while (exponent != 0) {
 			result = result * base;
 			exponent--;
+		}*//*
+
+		for (int i = 1; i <= exponent; i++) {
+			result = result * base;
 		}
 		System.out.println("power of a number is: " + result);
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	public void missingNumberFromArray() {
 		int[] arr = {1, 3, 5, 4, 6};
 		List<int[]> ls = new ArrayList<>();
@@ -557,9 +614,11 @@ public class ProgramFile {
 		}
 	}
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	
 	
 	public void powerFunctionWithRecursion() {
@@ -567,9 +626,11 @@ public class ProgramFile {
 	}
 	
 	
-	/**
+	*/
+/**
 	 * =============================================
-	 */
+	 *//*
+
 	// find the indices & sum of its maximum positive-sum continuous sub array.
 	// A = {1, -4, 3, 6, -7, 0}
 	// Max Sum = 9
@@ -580,9 +641,11 @@ public class ProgramFile {
 	
 }
 
+*/
 /**
  * =============================================
- */
+ *//*
+
 
 class RunnerMain {
 	
@@ -601,7 +664,7 @@ class RunnerMain {
 		//p.countNumberOfDigits();
 		//p.duplicateCountNumbers();
 		//p.duplicateCountString();
-		//p.duplicateWords();
+		p.duplicateWords();
 		//p.duplicateNumbers();
 		//p.nonDuplicateNumbers();
 		//p.reverseSentence();
@@ -624,3 +687,4 @@ class RunnerMain {
 	
 
 
+*/
