@@ -27,7 +27,7 @@ public class ProgramFile {
 	 *//*
 
 	
-	public void sumOfNumbersFromList() {
+	public void SumOfNumbersFromList() {
 		int sum = 0;
 		List<Integer> arr = new ArrayList<>();
 		arr.add(1);
@@ -653,7 +653,7 @@ class RunnerMain {
 		
 		ProgramFile p = new ProgramFile();
 		//p.sumOfArray();
-		//p.sumOfNumbersFromList();
+		//p.SumOfNumbersFromList();
 		//p.factorialNumber();
 		//p.fibonacci();
 		//p.reverseNumber();

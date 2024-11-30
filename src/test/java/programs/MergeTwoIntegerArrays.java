@@ -2,7 +2,7 @@ package programs;
 
 import java.util.Arrays;
 
-public class MergeTwoArrays {
+public class MergeTwoIntegerArrays {
 	
 	public static void main(String[] args) {
 		

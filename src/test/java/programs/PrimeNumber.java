@@ -1,7 +1,10 @@
 package programs;
 
 public class PrimeNumber {
-	
+
+//	number should be > 1.
+//	Divisible by 1 & the number itself - Prime number (That's why the count == 2)
+
 	public static void main(String[] args) {
 		
 		int num = 6;
