@@ -1,6 +1,6 @@
 package programs;
 
-public class FindDuplicateNumbersAfterReverseOfNumber {
+public class FindDuplicatesAfterReverseNumber {
 
 public static void main (String[] args)
     {
